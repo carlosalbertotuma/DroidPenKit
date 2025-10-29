@@ -66,6 +66,7 @@ DroidPenKit is a PowerShell script designed to automate common tasks in mobile s
 
 # 🛠 Ferramentas Necessárias para funcionamento
 
+https://github.com/newbit1/rootAVD
 
 🔹 Android SDK Platform-Tools (adb)
 
