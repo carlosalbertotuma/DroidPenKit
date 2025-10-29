@@ -45,7 +45,7 @@ function upload{
    ~\AppData\Local\Android\Sdk\platform-tools\adb.exe devices
    $device = Read-Host "Escolha o Device:"
    $local = Read-Host "Digite o local do arquivo: Ex: /data/local/arquivo.txt"
-   ~\AppData\Local\Android\Sdk\platform-tools\db.exe -s $device pull $local 
+   ~\AppData\Local\Android\Sdk\platform-tools\adb.exe -s $device pull $local 
 }
 
 function install{
@@ -503,4 +503,5 @@ switch ($p1) {
     48 { processos }
     49 { inject-mult }
     default { banner1 }
+
 }
